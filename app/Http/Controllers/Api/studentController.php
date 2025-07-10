@@ -154,6 +154,7 @@ class studentController extends Controller
         
     }
 
+    // Actualizar parcialmente un student específico
     public function updatePartial(Request $request, $id)
     {
         $student = Student::find($id);
